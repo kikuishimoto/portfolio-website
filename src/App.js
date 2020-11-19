@@ -4,10 +4,10 @@ import './App.css';
 
 function App() {
   return (
-    <body>
-      <NavBar />
-      <Home />
-    </body>
+    <div>
+    <NavBar />
+    <Home />
+    </div>
   );
 }
 
