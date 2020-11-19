@@ -1,6 +1,5 @@
-import React, {useState} from "react";
-import {useEffect} from "react";
-import home from "../images/home.svg"
+import React from "react";
+import cat from "../images/cat.svg"
 import BlogPreview from "./BlogPreview";
 import "./Home.css"
 
@@ -10,13 +9,13 @@ export default function Home() {
         <body>
             <div className="container">
                 <section> 
-                    <img src={ home } alt="tree"></img>
+                    <img src={ cat } alt="tree"></img>
                     <h1 className="intro-text">Hi, My name is Taylor Ishimoto.</h1>
                     <p className="subhead"> But, because we are friends, you can call me Kiku. </p>
                 </section>
             </div>
-            <div class="about-container">
-                <div class="container">
+            <div className="about-container">
+                <div className="container">
                     <ul>
                         <li>
                             <img></img>
@@ -38,8 +37,8 @@ export default function Home() {
                     </ul>
                 </div>
             </div>
-            <div class="blog-container">
-                <div class="container">
+            <div className="blog-container">
+                <div className="container">
                     <h2>While you are here, you might as well check out my blog.</h2>
                     <ul>
                         <BlogPreview />
