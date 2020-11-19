@@ -1,6 +1,9 @@
 body {
   margin: 0;
-  font-family: 'Tahoma';
+  font-family: 'Tahoma', sans-serif;
+}  
+p {
+  font-size: .9em;
 }
 ul {
   list-style-type: none;
